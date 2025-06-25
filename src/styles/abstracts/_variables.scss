@@ -1,0 +1,16 @@
+$primary-color: hsl(0, 100%, 74%);
+$secondary-color: hsl(154, 59%, 51%);
+$accent-color: hsl(248, 32%, 49%);
+$dark-blue-color: hsl(249, 10%, 26%);
+$grayish-blue-color: hsl(246, 25%, 77%);
+$primary-font-size: 1rem;
+$primary-shadow-color: hsl(0, 100%, 74%, 0.9);
+$white-color: white;
+$border-radius: 0.25rem;
+$box-shadow-shade: 0px 6px rgba(0, 0, 0, 0.2);
+$box-shadow-shade-light: 0px 2px rgba(0, 0, 0, 0.2);
+$colors: (
+  "red": "#dc2626",
+  "grey": "grey",
+  "primary": $primary-color,
+);

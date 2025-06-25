@@ -1,0 +1,8 @@
+body {
+  background: url("../assets/bg-intro-mobile.png"),
+    linear-gradient(($primary-shadow-color), ($primary-shadow-color));
+  @include respond-to(desktop) {
+    background: url("../assets/bg-intro-desktop.png"),
+      linear-gradient(($primary-shadow-color), ($primary-shadow-color));
+  }
+}

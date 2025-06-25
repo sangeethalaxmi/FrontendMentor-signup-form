@@ -1,0 +1,17 @@
+@mixin respond-to($breakpoints) {
+  @if ($breakpoints == mobile) {
+    @media (max-width: 768px) {
+      @content;
+    }
+  } @else if($breakpoints == desktop) {
+    @media (min-width: 768px) {
+      @content;
+    }
+  }
+}
+
+@each $name, $colors in $colors {
+  .text-color-#{$name} {
+    color: #{$colors};
+  }
+}

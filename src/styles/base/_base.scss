@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: grid;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 5rem;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  @include respond-to(desktop) {
+    grid-template-columns: 1fr 1fr;
+  }
+}

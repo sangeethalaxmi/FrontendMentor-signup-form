@@ -1,0 +1,13 @@
+.intro-container {
+  width: 300px;
+  @include respond-to(mobile) {
+    text-align: center;
+  }
+  &__header {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    @include respond-to(mobile) {
+      font-size: 1.5rem;
+    }
+  }
+}

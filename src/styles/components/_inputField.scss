@@ -1,0 +1,16 @@
+.form-control {
+  padding-top: 1rem;
+}
+.form-field {
+  padding: 0.75rem;
+  border: 1px solid lightgray;
+  border-radius: 0.25rem;
+  padding-left: 1rem;
+  color: black;
+  font-size: 0.75rem;
+  font-weight: 500;
+
+  &:focus {
+    outline: gray solid 1px;
+  }
+}

@@ -1,0 +1,8 @@
+.card {
+  background: $white-color;
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+  &__container {
+    padding: 1.5rem;
+  }
+}
